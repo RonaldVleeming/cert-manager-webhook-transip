@@ -25,5 +25,4 @@ jobs:
           --cache-to type=registry,ref=$IMAGE:cache,mode=max
           --cache-from type=registry,ref=$IMAGE:cache
           --push
-          -t $IMAGE
-          :latest
+          -t $IMAGE:latest
