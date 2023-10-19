@@ -5,10 +5,10 @@ certManager:
   serviceAccountName: cert-manager
 
 image:
-  repository: robbietjuh/cert-manager-webhook-transip
+  repository: ghcr.io/ronaldvleeming/cert-manager-webhook-transip
   tag: latest
   privateRegistrySecretName: ""
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 nameOverride: ""
 fullnameOverride: ""
